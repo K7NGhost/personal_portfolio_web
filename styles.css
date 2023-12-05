@@ -1,3 +1,52 @@
 * {
     border: 1px solid red;
 }
+
+body {
+    background-color: #111117;
+    color: white;
+    margin: 0;
+}
+
+h3, h1, h2, p {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.left h3 {
+    font-size: 24px;
+}
+.right {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-right: 30px;
+}
+
+.introduction {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.imgBox {
+    flex: 0 0 auto;
+    margin-right: 50px;
+}
+
+.imgBox img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
